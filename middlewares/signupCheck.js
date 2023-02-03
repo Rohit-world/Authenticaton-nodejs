@@ -1,4 +1,4 @@
-const {UserModel}=require("../models/user.model")
+const {UserModel}=require("../model/user.model")
 
 const signupcheck =async(req, res,next)=>{
     const {email,password}=req.body
